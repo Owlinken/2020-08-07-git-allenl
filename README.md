@@ -16,3 +16,7 @@
 
 - `HEAD`: tells where you are looking in history
 
+- `git diff`: prints summary of changes to screen output
+	- `git diff --oneline': oneline summary of diff
+	- `git diff --staged`: includes diffs from staging area
+
