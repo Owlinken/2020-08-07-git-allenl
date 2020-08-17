@@ -11,3 +11,8 @@
 
 - `git config --global core.editor "nano -w"
 
+- `git log`: shows your history
+	- `git log --oneline`: shows one line version of log
+
+- `HEAD`: tells where you are looking in history
+
