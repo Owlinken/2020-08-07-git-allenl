@@ -8,6 +8,7 @@
 - `git status`: tells if there are files with uncommited changes
 - `git add <filename>`: adds filename to staging area
 - `git commit`:commits files in staging area, opens file ready to commit changes
+	-`git commit -m "MESSAGE"`: allows oneline commitmessage in one step, without opening first in editor and saving
 
 - `git config --global core.editor "nano -w"
 
@@ -16,7 +17,7 @@
 
 - `HEAD`: tells where you are looking in history
 
-- `git diff`: prints summary of changes to screen output
+- `git diff`: shows current state with last known state differences, prints summary of changes to screen output
 	- `git diff --oneline': oneline summary of diff
 	- `git diff --staged`: includes diffs from staging area
 
